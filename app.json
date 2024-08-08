@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Kurenode Agent",
+    "slug": "quernode-tablet",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nworlu.quernodetablet"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f149223c-7f0d-4047-86e9-f0d395e4ea51"
+      }
+    }
+  }
+}
